@@ -1,0 +1,52 @@
+/* Global CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #07464c, #fdbe33);
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+.container {
+    width: 31em;
+    height: 31em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 0.6em;
+    background-color: #7464;
+}
+.base{
+    display: none;
+}
+.base,
+#scratch {
+    width: 200px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    cursor: grabbing;
+    border-radius: 0.3em;
+    border: #ffffff;
+}
+.base h3 {
+    font-weight: 600;
+    font-size: 1.5em;
+    color: #ffffff; /* Set text color */
+}
+.base h4 {
+    font-weight: 400;
+    color: #ffffff; /* Set text color */
+}
+#scratch {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
